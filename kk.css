@@ -1,0 +1,219 @@
+/* =========================
+   GENERAL PAGE STYLE
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   NAVIGATION BAR
+========================= */
+
+nav {
+    background-color: #0b4f9c;
+    color: white;
+    padding: 15px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #b9dcff;
+}
+
+
+/* =========================
+   HOME SECTION
+========================= */
+
+.home {
+    background-color: #eaf4ff;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.home h1 {
+    color: #0b4f9c;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 20px;
+    color: #444;
+}
+
+
+/* =========================
+   ABOUT ME SECTION
+========================= */
+
+#about {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#about h1 {
+    color: #0b4f9c;
+    font-size: 35px;
+}
+
+#about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+}
+
+
+/* =========================
+   HOBBIES SECTION
+========================= */
+
+#hobbies {
+    background-color: #eaf4ff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#hobbies h1 {
+    color: #0b4f9c;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+#hobbies h2 {
+    color: #0b4f9c;
+    margin-top: 30px;
+}
+
+#hobbies p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+/* =========================
+   ACADEMIC SECTION
+========================= */
+
+#academic {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#academic h1 {
+    color: #0b4f9c;
+    font-size: 35px;
+}
+
+#academic h2 {
+    color: #333;
+    font-size: 25px;
+}
+
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+#contact {
+    background-color: #eaf4ff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#contact h1 {
+    color: #0b4f9c;
+    font-size: 35px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background-color: #0b4f9c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    nav h2 {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .home {
+        padding: 90px 20px;
+    }
+
+    .home h1 {
+        font-size: 35px;
+    }
+
+    .home p {
+        font-size: 18px;
+    }
+
+    #about,
+    #hobbies,
+    #academic,
+    #contact {
+        padding: 70px 20px;
+    }
+}
